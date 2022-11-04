@@ -92,10 +92,10 @@ export default {
         <!-- Header logos -->
         <div>
           <router-link to="/"
-            ><strong v-if="theme === 'light'" class="w-36" alt="Dark name">
+            ><strong v-if="theme === 'light'" class="w-36">
               Samuel Almeida
             </strong>
-            <strong v-else class="w-36" alt="Light Logo">
+            <strong v-else class="w-36" style="color: white">
               Samuel Almeida
             </strong>
           </router-link>
